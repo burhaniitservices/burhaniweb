@@ -36,12 +36,4 @@
 @import "components/date_picker/default";
 @import "components/date_picker/default.date";
 @import "components/date_picker/default.time";
-
-
-.container-main{
-    max-width:1950px;
-    margin:auto;
-}
-.row{
-    margin:0px;
-}
+@import "container";
