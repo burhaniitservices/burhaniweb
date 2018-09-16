@@ -32,7 +32,7 @@
   </head>
   <body>
     <div class="container-main">
-      <div class="row">
+      <div class="row nomargin">
         <div class="col s12 nopad">
           <nav>
             <div class="nav-wrapper">
