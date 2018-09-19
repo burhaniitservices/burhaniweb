@@ -11,35 +11,35 @@ class Pages extends CI_Controller {
     }
     $data['title'] = ucfirst($page);
     $this->load->view('pages/template/header',$data);
-    $this->load->view('pages/'.$page);   
+    $this->load->view('pages/'.$page);
     $this->load->view('pages/template/footer');
   }
   public function view()
   {
-    # code...
+
   }
   public function show($id = "")
   {
-    # code...
+
   }
   public function create()
   {
-    # code...
+
   }
   public function store()
   {
-    # code...
+
   }
   public function edit($id)
   {
-    # code...
+
   }
   public function update()
   {
-    # code...
+
   }
   public function delete($id)
   {
-    # code...
+
   }
 }
