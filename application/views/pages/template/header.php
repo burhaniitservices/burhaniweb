@@ -18,29 +18,27 @@
     <link rel="canonical" href="http://www.burhani.co.in" />
     <link rel='shortlink' href='http://www.burhani.co.in' />
     <!-- Favicons -->
-    <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="img/fav.ico" type="image/vnd.microsoft.icon"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="img/fav.ico" />
-    <link rel="apple-touch-icon" sizes="76x76" href="img/fav.ico" />
-    <link rel="apple-touch-icon" sizes="120x120" href="img/fav.ico" />
-    <link rel="apple-touch-icon" sizes="152x152" href="img/fav.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/fav.ico" />
-    <!-- Links -->  
+    <link rel="shortcut icon" href="<?php echo base_url('assets/img/icon.png')?>" type="image/x-icon"/>
+    <link rel="shortcut icon" href="<?php echo base_url('assets/img/icon.png')?>" type="image/vnd.microsoft.icon"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url('assets/img/icon.png')?>" />
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url('assets/img/icon.png')?>" />
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo base_url('assets/img/icon.png')?>" />
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo base_url('assets/img/icon.png')?>" />
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo base_url('assets/img/icon.png')?>" />
+    <!-- Links -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/master.css');?>">
     <!-- Title -->
-    <title>Burhani IT Services, <?php echo $title;?> </title>
+    <title>Burhani IT Services | <?php echo $title;?> </title>
   </head>
   <body>
     <div class="container-main">
-      <div class="row">
+      <div class="row nomargin">
         <div class="col s12 nopad">
           <nav>
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo">Logo</a>
+            <div class="nav-wrapper white">
+              <a href="#" class="brand-logo"> <img class="img-responsive" style="max-width:150px; padding:5px" src="<?php echo base_url('assets/img/logo.png')?>" alt=""> </a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <!-- <li><a href="sass.html">Sass</a></li> -->
               </ul>
             </div>
           </nav>
